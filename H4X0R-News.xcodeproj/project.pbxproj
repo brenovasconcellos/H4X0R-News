@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF280AB3278F6E57001777F9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF280AB2278F6E57001777F9 /* DetailView.swift */; };
+		EF280AB7278F8077001777F9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF280AB6278F8076001777F9 /* WebView.swift */; };
 		EFDA194B278CE18B00566E4E /* H4X0R_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA194A278CE18B00566E4E /* H4X0R_NewsApp.swift */; };
 		EFDA194D278CE18B00566E4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDA194C278CE18B00566E4E /* ContentView.swift */; };
 		EFDA194F278CE18C00566E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDA194E278CE18C00566E4E /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF280AB2278F6E57001777F9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EF280AB6278F8076001777F9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		EFDA1947278CE18B00566E4E /* H4X0R-News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R-News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDA194A278CE18B00566E4E /* H4X0R_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_NewsApp.swift; sourceTree = "<group>"; };
 		EFDA194C278CE18B00566E4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF280AB1278F6E1E001777F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFDA194C278CE18B00566E4E /* ContentView.swift */,
+				EF280AB2278F6E57001777F9 /* DetailView.swift */,
+				EF280AB6278F8076001777F9 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EFDA193E278CE18B00566E4E = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				EFDA194A278CE18B00566E4E /* H4X0R_NewsApp.swift */,
-				EFDA194C278CE18B00566E4E /* ContentView.swift */,
+				EF280AB1278F6E1E001777F9 /* Views */,
 				EFDA1959278CE43600566E4E /* Models */,
 				EFDA194E278CE18C00566E4E /* Assets.xcassets */,
 				EFDA1953278CE18C00566E4E /* Info.plist */,
@@ -155,6 +169,8 @@
 				EFDA195B278CE46D00566E4E /* NetworkManager.swift in Sources */,
 				EFDA195D278CE73900566E4E /* PostData.swift in Sources */,
 				EFDA194D278CE18B00566E4E /* ContentView.swift in Sources */,
+				EF280AB7278F8077001777F9 /* WebView.swift in Sources */,
+				EF280AB3278F6E57001777F9 /* DetailView.swift in Sources */,
 				EFDA194B278CE18B00566E4E /* H4X0R_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
